@@ -30,3 +30,35 @@ The system was evaluated using Character Error Rate (CER), and the final submiss
 ---
 
 ## 📂 Repository Structure
+📁 Uyghur-ASR-Wav2Vec2
+└── 📄 Uyghur_ASR_Wav2Vec2.ipynb (main notebook)
+
+
+---
+
+## ▶️ How to Run the Notebook
+1. Open the notebook in Google Colab / Kaggle / Jupyter
+2. Install required dependencies inside the notebook
+3. Replace dataset paths with your local/Kaggle paths
+4. Run all cells to generate predictions and submission CSV
+
+> Note: The dataset used in this project cannot be redistributed publicly due to competition rules.
+
+---
+
+## 🔍 Evaluation Metric
+The project uses **Character Error Rate (CER)**:
+\[
+CER = \frac{S + D + I}{N}
+\]
+
+Where:  
+**S** = substitutions  
+**D** = deletions  
+**I** = insertions  
+**N** = total characters in the reference
+
+---
+
+## 🙋 Author
+**Srinandhini**
