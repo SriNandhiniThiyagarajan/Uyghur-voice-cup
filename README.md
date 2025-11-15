@@ -30,7 +30,7 @@ The system was evaluated using Character Error Rate (CER), and the final submiss
 ---
 
 ## 📂 Repository Structure
-📁 Uyghur-ASR-Wav2Vec2
+📁 Uyghur-voice-cup
 └── 📄 Uyghur_ASR_Wav2Vec2.ipynb (main notebook)
 
 
